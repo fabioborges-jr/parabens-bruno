@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen">
-      <video width="900" autoPlay muted className="z-0">
+      <video width="900" autoPlay loop muted className="z-0">
         <source 
           src="/bruneca.mp4"
           type="video/mp4"
